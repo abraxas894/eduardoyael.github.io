@@ -1,0 +1,472 @@
+body{
+	background-color: #ffe4e1;
+}
+.cajaTxt{
+	width: 90%;
+	margin: 0% 5%;
+}
+.cajaTxt a{
+	text-decoration-line: none;
+	color: inherit;
+}
+h1{
+	font: normal 4vw/1.2vw "Bellefair", serif;
+	color: #191919;
+	text-align: left;
+	width: 40%;
+	margin: 3% 0% 0% 3%;
+	float: left; 
+}
+h2{
+	font: normal 3vw/1.2vw "Bellefair", serif;
+	color: #191919;
+}
+h3{
+	font: normal 2.2vw/1.2vw "Bellefair", serif;
+	color: #191919;
+	padding: 2% 5%;
+	text-align: left;
+}
+h3:nth-child(2n) {
+	text-align: right;
+}
+p{
+	font: normal 1.2em/1.4em "SortsGoudy", serif;
+}
+pre{
+	font: normal 1.2em/1.4em "SortsGoudy", serif;
+}
+.listonA{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.listonA > a{
+	font: normal 1.6vw/1.2vw "Bellefair", serif;
+	text-align: center;
+	margin: 2% 0%;
+	padding: 1%;
+	text-decoration-line: none;
+}
+.listonA > a:hover{
+	color: #ffe4e1;
+	background-color: #191919;
+	background-attachment: content;
+	border-radius: 10px;
+}
+.listonA > span{
+	font: normal 1vw/1.2vw "Bellefair", serif;
+	text-align: center;
+	margin: 2% 0%;
+	padding: 1%;
+}
+.listonA > .activo{
+	color: #ffe4e1;
+	background-color: #191919;
+	border-radius: 10px;
+}
+.listonA > .icon{
+	display: none;
+}	
+.portada{
+	width: 30%;
+	margin: 0% 5% 0% 5%;
+	height: 600px;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.portada img{
+	width: 100%;
+}
+.portada .enlaces{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.portada .enlaces a{
+	font: normal 1.5em/1.4em "SortsGoudy", serif;
+	margin: 8% 0% 0%;
+	padding: 2% 3%;
+	color: #191919;
+}
+.figTxt{
+	width: 60%;
+	float: left;
+}
+.figIzqU, .figDerU, .figIzqD, .figDerD{
+	width: 50%;
+	height:310px;
+}
+.figIzqU{
+	shape-outside: polygon(0% 0%, 100% 0%, 0% 100%);
+	float: left;
+	clip-path: polygon(0% 0%, 80% 0%, 0% 80%);
+	background-color: #f4a4a4;
+}
+.figDerU{
+	shape-outside: polygon(0% 0%, 100% 0%, 100% 100%);
+	float: right;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+.figIzqD{
+	shape-outside: polygon(0% 0%, 100% 100%, 0% 100%);
+	float: left;
+	clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+}
+.figDerD{
+	shape-outside: polygon(100% 0%, 100% 100%, 0% 100%);
+	float: right;
+	clip-path: polygon(100% 20%, 100% 100%, 20% 100%);
+	background-color: #c4e3ed;
+}
+.figTxt p{
+	font-size: 1.55vw;
+	width: 100%;
+	text-align: justify;
+	margin: 0;
+	text-align-last: center;
+}
+.figTxt p a{
+	color: green;
+	text-decoration: none;
+}
+.seccionesFlex{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.seccionesCV{
+	width: 40%;
+	margin: 2% 2.5%;
+	border-style: solid;
+	border-width: 1px 1px 0px 0px;
+	border-color: #191919;
+
+}
+.seccionesCV:nth-child(2n) {
+	border-style: solid;
+	border-width: 1px 0px 0px 1px;
+	border-color: #191919;
+
+}
+.seccionesCV .educacion p:before{
+	content: "❧ ";
+	font-size: .8em;
+	color: #8b0000;
+}
+.seccionesCV .cursos p:before{
+	content: "▪ ";
+}
+.ding2x{
+	font-size: 1.1em;
+}
+.xp{
+	width: 100%;
+	margin: 5% 0%;
+	color: #191919;
+}
+.xp h5{
+	font: normal 1.6vw/1.2vw "Bellefair", serif;
+	color: #191919;
+	margin: 0% 0%;
+	padding: 0% 5%;
+}
+.xp h5::before{
+	content: "▪ ";
+	color: #8b0000;
+	font-size: .8em;
+}
+.xp p{
+	text-align: justify;
+}
+.seccionesCV p{
+	font: normal 1.1vw/1.5vw "SortsGoudy", serif;
+	padding: 0% 5%;
+}
+.seccionesCV ul{
+	list-style-type: none;
+	margin: 1em 0px;
+	padding: 0% 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.seccionesCV li{
+	font: normal 1.1vw/1.4vw "SortsGoudy", serif;
+	text-align: left;
+	width: 40%;
+	padding: 1% 0%;
+}
+.estelaMedia{
+	height: 300px;
+	background-color: #191919;
+	width: 10%;
+	float: left;
+}
+.versalitas{
+	font-variant: small-caps;
+	letter-spacing: 1px;
+}
+.seccionesCV .aficiones table{
+	width: 70%;
+	margin: 3% 15%;
+}
+.seccionesCV .aficiones td{
+	font-size: 1.2em;
+	color: #2b2b2b;
+}
+@font-face{
+	font-family: "Bellefair";
+	src: url(fonts/Bellefair.ttf);
+}
+@font-face{
+	font-family: "goldenType";
+	src: url(fonts/goldenType.otf);
+}
+@font-face{
+	font-family: "SortsGoudy";
+	src: url(fonts/SortsMillGoudy.ttf);
+}
+@media screen and (max-width: 600px){
+	body{
+		background-color: #ffe4e1;
+	}
+	.cajaTxt{
+		width: 100%;
+		margin: 0% 0%;
+	}
+	.cajaTxt a{
+		text-decoration-line: none;
+		color: inherit;
+	}
+	h1{
+		font: normal 10vw/1.2em "Bellefair", serif;
+		color: #191919;
+		width: 60%;
+		text-align: center;
+		margin: 5% 20% 0% 20%;
+	}
+	h2{
+		font: normal 3vw/1.2vw "Bellefair", serif;
+		color: #191919;
+	}
+	h3{
+		font: normal 6vw/1.2vw "Bellefair", serif;
+		color: #191919;
+		padding: 2% 5%;
+		text-align: left;
+	}
+	h3:nth-child(2n) {
+		text-align: right;
+	}
+	p{
+		font: normal 1em/1.4em "SortsGoudy", serif;
+	}
+	.listonA{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: baseline;
+		flex-wrap: nowrap;
+	}
+	.listonA a:not(:first-child){
+		display: none;
+	}
+	.listonA a.icon{
+		display: block;
+	}
+	.listonA.responsivo{
+		position: relative;
+	}
+	.listonA.responsivo .icon{
+		position: inherit;
+	}
+	.listonA.responsivo a{
+		display: block;
+	}
+	.listonA > a{
+		font: normal 4.5vw/6vw "Bellefair", serif;
+		width: 60%;
+		text-align: center;
+		margin: .25% 20%;
+		padding: 1% 0%;
+		text-decoration-line: none;
+	}
+	.listonA > a:hover{
+		color: #ffe4e1;
+		background-color: #191919;
+		background-attachment: content;
+		border-radius: 10px;
+	}
+	.listonA > span{
+		font: normal 1vw/1.2vw "Bellefair", serif;
+		text-align: center;
+		margin: 0% 0%;
+		padding: 1%;
+		display: none;
+	}
+	.listonA > .activo{
+		color: #ffe4e1;
+		background-color: #191919;
+		border-radius: 10px;
+	}	
+	.portada{
+		width: 80%;
+		margin: 5% 10% 0% 10%;
+		height: auto;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.portada img{
+		width: 100%;
+		display: none;
+	}
+	.portada .enlaces{
+		width: 50%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.portada .enlaces a{
+		font: normal 1.5em/1.4em "SortsGoudy", serif;
+		margin: 5% 0% 0%;
+		padding: 2% 3%;
+		color: #191919;
+	}
+	.figTxt{
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+	.figIzqU, .figDerU, .figIzqD, .figDerD{
+		width: 50%;
+		height: 300px;
+	}
+	.figIzqU{
+		shape-outside: polygon(0% 0%, 100% 0%, 0% 100%);
+		float: left;
+		clip-path: polygon(0% 0%, 90% 0%, 0% 90%);
+		background-color: #f4a4a4;
+	}
+	.figDerU{
+		shape-outside: polygon(0% 0%, 100% 0%, 100% 100%);
+		float: right;
+		clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+	}
+	.figIzqD{
+		shape-outside: polygon(0% 0%, 100% 100%, 0% 100%);
+		float: left;
+		clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+	}
+	.figDerD{
+		shape-outside: polygon(100% 0%, 100% 100%, 0% 100%);
+		float: right;
+		clip-path: polygon(100% 10%, 100% 100%, 10% 100%);
+		background-color: #c4e3ed;
+	}
+	.figTxt p{
+		font-size: 1em;
+		width: 100%;
+		text-align: justify;
+		margin: 0;
+		text-align-last: center;
+	}
+	.figTxt p a{
+		color: green;
+		text-decoration: none;
+	}
+	.seccionesFlex{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.seccionesCV{
+		width: 90%;
+		margin: 2% 5%;
+		border-style: solid;
+		border-width: 1px 1px 0px 0px;
+		border-color: #191919;
+
+	}
+	.seccionesCV:nth-child(2n) {
+		border-style: solid;
+		border-width: 1px 0px 0px 1px;
+		border-color: #191919;
+
+	}
+	.seccionesCV .educacion p:before{
+		content: "❧ ";
+		font-size: .9em;
+		color: #8b0000;
+	}
+	.seccionesCV .cursos p:before{
+		content: "▪ ";
+	}
+	.ding2x{
+		font-size: 1.1em;
+	}
+	.xp{
+		width: 100%;
+		margin: 5% 0%;
+		color: #191919;
+	}
+	.xp h5{
+		font: normal 5vw/1.2em "Bellefair", serif;
+		color: #191919;
+		margin: 0% 0%;
+		padding: 0% 5%;
+	}
+	.xp h5::before{
+		content: "▪ ";
+		color: #8b0000;
+		font-size: 1em;
+	}
+	.xp p{
+		text-align: justify;
+	}
+	.seccionesCV p{
+		font: normal 3.7vw/1.3em "SortsGoudy", serif;
+		padding: 0% 5%;
+	}
+	.seccionesCV ul{
+		list-style-type: none;
+		margin: 1em 0px;
+		padding: 0% 5%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.seccionesCV li{
+		font: normal 1.1vw/1.4vw "SortsGoudy", serif;
+		text-align: left;
+		width: 40%;
+		padding: 1% 0%;
+	}
+	.estelaMedia{
+		height: 300px;
+		background-color: #191919;
+		width: 10%;
+		float: left;
+	}
+	.versalitas{
+		font-variant: small-caps;
+		letter-spacing: 1px;
+	}
+	.seccionesCV .aficiones table{
+		width: 60%;
+		margin: 3% 15%;
+	}
+	.seccionesCV .aficiones td{
+		font-size: 1em;
+		color: #2b2b2b;
+	}
+}
